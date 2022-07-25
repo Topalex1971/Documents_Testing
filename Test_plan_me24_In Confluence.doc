@@ -1,903 +1,164 @@
-Date: Fri, 15 Jul 2022 14:22:49 +0000 (UTC)
-Message-ID: <2050104372.41.1657894969838@c0223517426e>
-Subject: Exported From Confluence
-MIME-Version: 1.0
-Content-Type: multipart/related; 
-	boundary="----=_Part_40_1523640955.1657894969837"
-
-------=_Part_40_1523640955.1657894969837
-Content-Type: text/html; charset=UTF-8
-Content-Transfer-Encoding: quoted-printable
-Content-Location: file:///C:/exported.html
-
-<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
-      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
-      xmlns:v=3D'urn:schemas-microsoft-com:vml'
-      xmlns=3D'urn:w3-org-ns:HTML'>
-<head>
-    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
-">
-    <title>Test plan me24</title>
-    <!--[if gte mso 9]>
-    <xml>
-        <o:OfficeDocumentSettings>
-            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
-            <o:PixelsPerInch>72</o:PixelsPerInch>
-            <o:AllowPNG/>
-        </o:OfficeDocumentSettings>
-        <w:WordDocument>
-            <w:View>Print</w:View>
-            <w:Zoom>90</w:Zoom>
-            <w:DoNotOptimizeForBrowser/>
-        </w:WordDocument>
-    </xml>
-    <![endif]-->
-    <style>
-                <!--
-        @page Section1 {
-            size: 8.5in 11.0in;
-            margin: 1.0in;
-            mso-header-margin: .5in;
-            mso-footer-margin: .5in;
-            mso-paper-source: 0;
-        }
-
-        table {
-            border: solid 1px;
-            border-collapse: collapse;
-        }
-
-        table td, table th {
-            border: solid 1px;
-            padding: 5px;
-        }
-
-        td {
-            page-break-inside: avoid;
-        }
-
-        tr {
-            page-break-after: avoid;
-        }
-
-        div.Section1 {
-            page: Section1;
-        }
-
-        /* Confluence print stylesheet. Common to all themes for print medi=
-a */
-/* Full of !important until we improve batching for print CSS */
-
-@media print {
-    #main {
-        padding-bottom: 1em !important; /* The default padding of 6em is to=
-o much for printouts */
-    }
-
-    body {
-        font-family: Arial, Helvetica, FreeSans, sans-serif;
-        font-size: 10pt;
-        line-height: 1.2;
-    }
-
-    body, #full-height-container, #main, #page, #content, .has-personal-sid=
-ebar #content {
-        background: #fff !important;
-        color: #000 !important;
-        border: 0 !important;
-        width: 100% !important;
-        height: auto !important;
-        min-height: auto !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        display: block !important;
-    }
-
-    a, a:link, a:visited, a:focus, a:hover, a:active {
-        color: #000;
-    }
-
-    #content h1,
-    #content h2,
-    #content h3,
-    #content h4,
-    #content h5,
-    #content h6 {
-        font-family: Arial, Helvetica, FreeSans, sans-serif;
-        page-break-after: avoid;
-    }
-
-    pre {
-        font-family: Monaco, "Courier New", monospace;
-    }
-
-    #header,
-    .aui-header-inner,
-    #navigation,
-    #sidebar,
-    .sidebar,
-    #personal-info-sidebar,
-    .ia-fixed-sidebar,
-    .page-actions,
-    .navmenu,
-    .ajs-menu-bar,
-    .noprint,
-    .inline-control-link,
-    .inline-control-link a,
-    a.show-labels-editor,
-    .global-comment-actions,
-    .comment-actions,
-    .quick-comment-container,
-    #addcomment {
-        display: none !important;
-    }
-
-    /* CONF-28544 cannot print multiple pages in IE */
-    #splitter-content {
-        position: relative !important;
-    }
-
-    .comment .date::before {
-        content: none !important; /* remove middot for print view */
-    }
-
-    h1.pagetitle img {
-        height: auto;
-        width: auto;
-    }
-
-    .print-only {
-        display: block;
-    }
-
-    #footer {
-        position: relative !important; /* CONF-17506 Place the footer at en=
-d of the content */
-        margin: 0;
-        padding: 0;
-        background: none;
-        clear: both;
-    }
-
-    #poweredby {
-        border-top: none;
-        background: none;
-    }
-
-    #poweredby li.print-only {
-        display: list-item;
-        font-style: italic;
-    }
-
-    #poweredby li.noprint {
-        display: none;
-    }
-
-    /* no width controls in print */
-    .wiki-content .table-wrap,
-    .wiki-content p,
-    .panel .codeContent,
-    .panel .codeContent pre,
-    .image-wrap {
-        overflow: visible !important;
-    }
-
-    /* TODO - should this work? */
-    #children-section,
-    #comments-section .comment,
-    #comments-section .comment .comment-body,
-    #comments-section .comment .comment-content,
-    #comments-section .comment p {
-        page-break-inside: avoid;
-    }
-
-    #page-children a {
-        text-decoration: none;
-    }
-
-    /**
-     hide twixies
-
-     the specificity here is a hack because print styles
-     are getting loaded before the base styles. */
-    #comments-section.pageSection .section-header,
-    #comments-section.pageSection .section-title,
-    #children-section.pageSection .section-header,
-    #children-section.pageSection .section-title,
-    .children-show-hide {
-        padding-left: 0;
-        margin-left: 0;
-    }
-
-    .children-show-hide.icon {
-        display: none;
-    }
-
-    /* personal sidebar */
-    .has-personal-sidebar #content {
-        margin-right: 0px;
-    }
-
-    .has-personal-sidebar #content .pageSection {
-        margin-right: 0px;
-    }
-
-    .no-print, .no-print * {
-        display: none !important;
-    }
-}
--->
-    </style>
-</head>
-<body>
-    <h1>Test plan me24</h1>
-    <div class=3D"Section1">
-        <style type=3D"text/css">/*<![CDATA[*/
-div.rbtoc1657894969813 {padding: 0px;}
-div.rbtoc1657894969813 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1657894969813 li {margin-left: 0px;padding-left: 0px;}
-
-/*]]>*/</style>
-<div class=3D"toc-macro rbtoc1657894969813">=20
-<ul class=3D"toc-indentation">=20
-<li><a href=3D"#Testplanme24-1.Introduction">1. Introduction</a></li>=20
-<li><a href=3D"#Testplanme24-2.Testobject">2. Test object</a></li>=20
-<li><a href=3D"#Testplanme24-3.Featurestobetested">3. Features to be tested=
-</a></li>=20
-<li><a href=3D"#Testplanme24-4.Featuresnottobetested">4. Features not to be=
- tested</a></li>=20
-<li><a href=3D"#Testplanme24-5.Approach">5. Approach</a>=20
-<ul class=3D"toc-indentation">=20
-<li><a href=3D"#Testplanme24-5.1Typeoftests">5.1 Type of tests</a>=20
-<ul class=3D"toc-indentation">=20
-<li><a href=3D"#Testplanme24-5.1.1Functionaltesting">5.1.1 Functional testi=
-ng</a></li>=20
-<li><a href=3D"#Testplanme24-5.1.2GraphicalUserInterface">5.1.2 Graphical U=
-ser Interface</a></li>=20
-<li><a href=3D"#Testplanme24-5.1.3Cross-browserandcross-platformtesting">5.=
-1.3 Cross-browser and cross-platform testing</a></li>=20
-<li><a href=3D"#Testplanme24-5.1.4SmokeTesting">5.1.4 Smoke Testing</a></li=
->=20
-</ul> </li>=20
-<li><a href=3D"#Testplanme24-5.2Metrics">5.2 Metrics</a>=20
-<ul class=3D"toc-indentation">=20
-<li><a href=3D"#Testplanme24-5.2.1.Severity">5.2.1. Severity</a></li>=20
-<li><a href=3D"#Testplanme24-5.2.2.Priority">5.2.2. Priority</a></li>=20
-</ul> </li>=20
-<li><a href=3D"#Testplanme24-5.3Specialrequirements">5.3 Special requiremen=
-ts</a></li>=20
-</ul> </li>=20
-<li><a href=3D"#Testplanme24-6.Acceptancecriteria">6. Acceptance criteria</=
-a>=20
-<ul class=3D"toc-indentation">=20
-<li><a href=3D"#Testplanme24-6.1.Acceptancecriteria:">6.1. Acceptance crite=
-ria:</a></li>=20
-<li><a href=3D"#Testplanme24-6.2Criteriaarenotaccepted:">6.2 Criteria are n=
-ot accepted:</a></li>=20
-</ul> </li>=20
-<li><a href=3D"#Testplanme24-7.SuspensionCriteriaandResumptionRequirements"=
->7. Suspension Criteria and Resumption Requirements</a></li>=20
-<li><a href=3D"#Testplanme24-8.Testitems">8. Test items</a></li>=20
-<li><a href=3D"#Testplanme24-9.Testdeliverables">9. Test deliverables</a></=
-li>=20
-<li><a href=3D"#Testplanme24-10.EnvironmentalNeeds">10. Environmental Needs=
-</a></li>=20
-<li><a href=3D"#Testplanme24-11.Responsibilities.">11. Responsibilities.</a=
-></li>=20
-<li><a href=3D"#Testplanme24-11.Scheduleoftesting">11. Schedule of testing<=
-/a></li>=20
-<li><a href=3D"#Testplanme24-12.RisksandContingencies">12.Risks and Conting=
-encies</a></li>=20
-<li><a href=3D"#Testplanme24-13.Approvals">13. Approvals</a></li>=20
-</ul>=20
-</div>
-<h1 id=3D"Testplanme24-1.Introduction">1. Introduction</h1>
-<p>&nbsp;</p>
-<p>=D0=9C=D0=B5=D1=82=D0=BE=D1=8E =D0=B4=D0=B0=D0=BD=D0=BE=D0=B3=D0=BE Test=
- plan =D1=94 =D0=BE=D0=BF=D0=B8=D1=81 =D0=B5=D1=82=D0=B0=D0=BF=D1=83 =D1=82=
-=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F Registraition form <=
-a class=3D"external-link" href=3D"https://me24.meest-group.com/" rel=3D"nof=
-ollow">https://me24.meest-group.com/</a> =D0=BF=D1=96=D1=81=D0=BB=D1=8F =D1=
-=80=D0=B5=D0=BB=D1=96=D0=B7=D1=83 =D0=BD=D0=BE=D0=B2=D0=BE=D1=97 =D0=B2=D0=
-=B5=D1=80=D1=81=D1=96=D1=97. =D0=A3 Test plan =D0=B2=D0=B8=D0=BA=D0=BE=D1=
-=80=D0=B8=D1=81=D1=82=D0=B0=D0=BD=D1=96 =D0=BD=D0=B0=D1=81=D1=82=D1=83=D0=
-=BF=D0=BD=D1=96 =D1=82=D0=B8=D0=BF=D0=B8 =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=
-=B2=D0=B0=D0=BD=D0=BD=D1=8F: <strong>Functional Testing, Grafic User Inerfa=
-ce (GUI).</strong></p>
-<h1 id=3D"Testplanme24-2.Testobject">2. Test object</h1>
-<p>=D0=A1=D1=82=D1=80=D0=B0=D1=82=D0=B5=D0=B3=D1=96=D1=8F, =D1=8F=D0=BA=D0=
-=B0 =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B0 =D1=83 =D1=86=D1=8C=D0=BE=D0=
-=BC=D1=83 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D1=96, =D1=81=D1=
-=82=D0=BE=D1=81=D1=83=D1=94=D1=82=D1=8C=D1=81=D1=8F Registraition form <a c=
-lass=3D"external-link" href=3D"https://me24.meest-group.com/" rel=3D"nofoll=
-ow">https://me24.meest-group.com/</a>. =D0=9E=D0=B1=D1=94=D0=BA=D1=82=D0=BE=
-=D0=BC =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F =D0=B4=
-=D0=B0=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D0=BB=D0=B0=D0=BD=D1=83 =D0=B1=D1=83=
-=D0=B4=D0=B5 <strong>Registraition form.</strong></p>
-<h1 id=3D"Testplanme24-3.Featurestobetested">3. Features to be tested</h1>
-<p>=D0=97=D0=B3=D1=96=D0=B4=D0=BD=D0=BE =D0=BF=D0=BE=D1=81=D1=82=D0=B0=D0=
-=B2=D0=BB=D0=B5=D0=BD=D0=BE=D1=97 =D0=B7=D0=B0=D0=B4=D0=B0=D1=87=D1=96 =D0=
-=BF=D1=80=D0=B8=D0=B9=D0=BD=D1=8F=D1=82=D0=BE =D1=80=D1=96=D1=88=D0=B5=D0=
-=BD=D0=BD=D1=8F =D0=BF=D1=80=D0=BE=D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=
-=B0=D1=82=D0=B8:</p>
-<p>=D0=A0=D0=B5=D1=94=D1=81=D1=82=D1=80=D0=B0=D1=86=D1=96=D1=8E =D0=B7=D0=
-=B0=D0=BC=D0=BE=D0=B2=D0=BD=D0=B8=D0=BA=D1=96=D0=B2 =D0=B7=D0=B0 =D0=B4=D0=
-=BE=D0=BF=D0=BE=D0=BC=D0=BE=D0=B3=D0=BE=D1=8E <strong>Email</strong> =D1=82=
-=D0=B0 <strong>Password</strong>;</p>
-<p>=D0=97=D0=B0=D0=BF=D0=B8=D1=81 =D0=B4=D0=B0=D0=BD=D0=B8=D1=85 =D0=BA=D0=
-=BE=D1=80=D0=B8=D1=81=D1=82=D1=83=D0=B2=D0=B0=D1=87=D1=96=D0=B2 =D1=83 =D0=
-=B1=D0=B0=D0=B7=D1=83 =D0=B4=D0=B0=D0=BD=D0=B8=D1=85 meest24</p>
-<p>=D0=92=D1=96=D0=B4=D0=BF=D0=BE=D0=B2=D1=96=D0=B4=D0=BD=D1=96=D1=81=D1=82=
-=D1=8C =D1=84=D0=BE=D1=80=D0=BC=D0=B8 =D1=80=D0=B5=D1=94=D1=81=D1=82=D1=80=
-=D0=B0=D1=86=D1=96=D1=97 =D0=B2=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=
-=D0=B5=D0=BD=D0=B8=D0=BC =D0=B2=D0=B8=D0=BC=D0=BE=D0=B3=D0=B0=D0=BC =D0=97=
-=D0=B0=D0=BC=D0=BE=D0=B2=D0=BD=D0=B8=D0=BA=D0=B0</p>
-<h1 id=3D"Testplanme24-4.Featuresnottobetested">4. Features not to be teste=
-d</h1>
-<p>=D0=9D=D0=B0=D1=81=D1=82=D1=83=D0=BF=D0=BD=D0=B0 =D1=84=D1=83=D0=BD=D0=
-=BA=D1=86=D1=96=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=96=D1=81=D1=82=D1=8C=
- =D0=BD=D0=B5 =D0=B1=D1=83=D0=B4=D0=B5 =D0=BF=D1=80=D0=BE=D1=82=D0=B5=D1=81=
-=D1=82=D0=BE=D0=B2=D0=B0=D0=BD=D0=B0:</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
-sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =D0=92=D1=85=D1=96=D0=B4 =D0=
-=B2 =D0=B0=D0=BA=D0=BA=D0=B0=D1=83=D0=BD=D1=82;</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
-sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =D0=A0=D0=B5=D1=94=D1=81=D1=
-=82=D1=80=D0=B0=D1=86=D1=96=D1=8F =D0=BA=D0=BE=D1=80=D0=B8=D1=81=D1=82=D0=
-=B8=D0=B2=D1=83=D1=87=D0=B0 =D1=87=D0=B5=D1=80=D0=B5=D0=B7 Facebook, Linked=
-In;</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
-sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =D0=9F=D0=BE=D0=BD=D0=BE=D0=
-=B2=D0=BB=D0=B5=D0=BD=D0=BD=D1=8F =D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8E.</p>
-<h1 id=3D"Testplanme24-5.Approach">5. Approach</h1>
-<p>=D0=9F=D1=80=D0=BE=D1=86=D0=B5=D1=81 =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=
-=B2=D0=B0=D0=BD=D0=BD=D1=8F =D0=B1=D1=83=D0=B4=D0=B5 =D0=BF=D1=80=D0=BE=D1=
-=85=D0=BE=D0=B4=D0=B8=D1=82=D0=B8 =D1=83 2-=D0=B0 =D0=B5=D1=82=D0=B0=D0=BF=
-=D0=B8:</p>
-<p><strong>=D0=9F=D0=B5=D1=80=D1=88=D0=B8=D0=B9 =D0=B5=D1=82=D0=B0=D0=BF</s=
-trong>. =D0=A4=D1=83=D0=BD=D0=BA=D1=86=D1=96=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
-=D0=BD=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F =
-=D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=B4=D1=83=D1=80=D0=B8 =D1=80=D0=B5=D1=94=
-=D1=81=D1=82=D1=80=D0=B0=D1=86=D1=96=D1=97 =D0=BA=D0=BE=D1=80=D0=B8=D1=81=
-=D1=82=D1=83=D0=B2=D0=B0=D1=87=D1=96=D0=B2 =D0=B7 =D1=83=D1=80=D0=B0=D1=85=
-=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F=D0=BC Test Design Techniques Black Box=
-</p>
-<p><strong>=D0=94=D1=80=D1=83=D0=B3=D0=B8=D0=B9 =D0=B5=D1=82=D0=B0=D0=BF</s=
-trong>. =D0=A2=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F =D1=96=
-=D0=BD=D1=82=D1=80=D0=B5=D1=84=D0=B5=D0=B9=D1=81=D1=83 =D0=BA=D0=BE=D1=80=
-=D0=B8=D1=81=D1=82=D1=83=D0=B2=D0=B0=D1=87=D1=96=D0=B2 =D1=84=D0=BE=D1=80=
-=D0=BC=D0=B8 =D1=80=D0=B5=D1=94=D1=81=D1=82=D1=80=D0=B0=D1=86=D1=96=D1=97</=
-p>
-<p>=D0=A6=D1=96 =D0=B5=D1=82=D0=B0=D0=BF=D0=B8 =D0=BF=D0=BE=D0=B2=D0=B8=D0=
-=BD=D0=BD=D1=96 =D0=B1=D1=83=D1=82=D0=B8 =D0=B2=D0=B8=D0=BA=D0=BE=D0=BD=D0=
-=B0=D0=BD=D1=96 =D0=B7=D0=B3=D1=96=D0=B4=D0=BD=D0=BE =D1=80=D1=96=D0=B7=D0=
-=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D0=BE=D1=87=D0=B5=D0=BD=D0=BD=D1=8F, =D1=
-=8F=D0=BA=D1=96 =D0=B7=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D1=96 =D0=
-=B2 <strong>=D1=80=D0=BE=D0=B7=D0=B4=D1=96=D0=BB=D1=96 10</strong> =D0=B4=
-=D0=B0=D0=BD=D0=BE=D0=B3=D0=BE Test plan</p>
-<p>=D0=9F=D0=BE=D0=BC=D0=B8=D0=BB=D0=BA=D0=B8, =D1=82=D0=B0 Bugs, =D1=8F=D0=
-=BA=D1=96 =D0=B1=D1=83=D0=B4=D1=83=D1=82=D1=8C =D0=B2=D0=B8=D1=8F=D0=B2=D0=
-=BB=D0=B5=D0=BD=D0=BD=D1=96 =D0=B2 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=
-=96 =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F =D0=B1=D1=
-=83=D0=B4=D1=83=D1=82=D1=8C =D0=BE=D1=84=D0=BE=D1=80=D0=BC=D0=BB=D0=B5=D0=
-=BD=D1=96 =D1=83 Jira =D1=82=D0=B0 TestRail.</p>
-<p><strong>=D0=A2=D1=80=D0=B5=D1=82=D1=96=D0=B9 =D0=B5=D1=82=D0=B0=D0=BF</s=
-trong>. =D0=92 =D0=BA=D1=96=D0=BD=D1=86=D1=96 =D0=BF=D1=80=D0=BE=D1=86=D0=
-=B5=D1=81=D1=83 =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=
-=8F =D0=B1=D1=83=D0=B4=D0=B5 =D0=BE=D1=84=D0=BE=D1=80=D0=BC=D0=BB=D0=B5=D0=
-=BD=D0=B8=D0=B9 =D0=B7=D0=B2=D1=96=D1=82 =D1=89=D0=BE=D0=B4=D0=BE =D1=80=D0=
-=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82=D1=96=D0=B2 =D0=B2=D0=B8=D0=
-=BA=D0=BE=D0=BD=D0=B0=D0=BD=D0=BD=D1=8F =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=
-=B2=D0=B0=D0=BD=D0=BD=D1=8F =D0=B7 =D1=83=D1=80=D0=B0=D1=85=D1=83=D0=B2=D0=
-=B0=D0=BD=D0=BD=D1=8F =D0=B7=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=
-=B8=D1=85 =D0=BC=D0=B5=D1=82=D1=80=D0=B8=D0=BA =D1=96=D0=B7 =D0=B7=D0=B0=D0=
-=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=BD=D1=8F =D1=81=D1=82=D1=83=D0=BF=D0=
-=B5=D0=BD=D0=BD=D1=8F =D0=BA=D1=80=D0=B8=D1=82=D0=B8=D1=87=D0=BD=D0=BE=D1=
-=81=D1=82=D1=96 Bugs =D1=82=D0=B0 =D0=BF=D1=80=D1=96=D0=BE=D1=80=D0=B8=D1=
-=82=D0=B5=D1=82=D0=BD=D0=BE=D1=81=D1=82=D1=96 =D1=97=D1=85 =D0=B2=D0=B8=D0=
-=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BD=D1=8F.</p>
-<h2 id=3D"Testplanme24-5.1Typeoftests">5.1 Type of tests</h2>
-<h3 id=3D"Testplanme24-5.1.1Functionaltesting">5.1.1 Functional testing</h3=
->
-<p><strong>=D0=9C=D0=B5=D1=82=D0=B0: </strong>=D0=92=D0=B8=D1=8F=D0=B2=D0=
-=B8=D1=82=D0=B8 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D1=96=D0=BE=D0=BD=D0=B0=D0=
-=BB=D1=8C=D0=BD=D1=96 =D0=BF=D0=BE=D0=BC=D0=B8=D0=BB=D0=BA=D0=B8 =D0=BF=D1=
-=96=D0=B4 =D1=87=D0=B0=D1=81 =D1=80=D0=B5=D1=94=D1=81=D1=82=D1=80=D0=B0=D1=
-=86=D1=96=D1=97 =D0=BA=D0=BE=D1=80=D0=B8=D1=81=D1=82=D1=83=D0=B2=D0=B0=D1=
-=87=D1=96=D0=B2 =D0=B2=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=BD=D1=8F =D0=B4=D0=
-=B0=D0=BD=D0=B8=D1=85 =D0=BA=D0=BE=D1=80=D0=B8=D1=81=D1=82=D1=83=D0=B2=D0=
-=B0=D1=87=D1=96=D0=B2 =D1=83 =D0=B2=D1=96=D0=B4=D0=BF=D0=BE=D0=B2=D1=96=D0=
-=B4=D0=BD=D1=96 =D0=BF=D0=BE=D0=BB=D1=8F <strong>Email</strong> =D1=82=D0=
-=B0 <strong>Password </strong>=D1=82=D0=B0 =D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=
-=D0=BB=D0=B5=D0=BD=D0=BD=D1=8F =D1=86=D0=B8=D1=85 =D0=B4=D0=B0=D0=BD=D0=B8=
-=D1=85 =D0=B4=D0=BE =D0=B1=D0=B0=D0=B7=D0=B8 =D0=B4=D0=B0=D0=BD=D0=B8=D1=85=
- meest24 =D1=88=D0=BB=D1=8F=D1=85=D0=BE=D0=BC =D0=B2=D0=B8=D0=BA=D0=BE=D0=
-=BD=D0=B0=D0=BD=D0=BD=D1=8F =D0=B2=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=
-=BB=D0=B5=D0=BD=D0=B8=D1=85 <strong>Test cases</strong>.</p>
-<p>=D0=94=D0=BB=D1=8F =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=
-=BD=D1=8F =D0=B1=D1=83=D0=B4=D1=83=D1=82=D1=8C =D0=B2=D0=B8=D0=BA=D0=BE=D1=
-=80=D0=B8=D1=81=D1=82=D0=B0=D0=BD=D1=96 =D1=82=D0=B5=D1=85=D0=BD=D1=96=D0=
-=BA=D0=B8 <strong>Test Design - Equivalence Partitioning =D1=82=D0=B0 Pair-=
-wise Testing</strong></p>
-<p>=D0=A4=D1=83=D0=BD=D1=86=D1=96=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=B5=
- =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F =D0=BD=D0=B5=
-=D0=BE=D0=B1=D1=85=D1=96=D0=B4=D0=BD=D0=BE =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=
-=D1=81=D1=82=D0=B8 =D0=BF=D1=80=D0=B8 =D1=80=D1=96=D0=B7=D0=BD=D0=B8=D1=85 =
-=D1=84=D1=83=D0=BD=D0=BA=D1=86=D1=96=D1=8F=D1=85 =D0=BB=D0=BE=D0=BA=D0=B0=
-=D0=BB=D1=96=D0=B7=D0=B0=D1=86=D1=96=D1=97 : =E2=80=9C=D1=83=D0=BA=D1=80=E2=
-=80=9D, =E2=80=9Ceng=E2=80=9D</p>
-<h3 id=3D"Testplanme24-5.1.2GraphicalUserInterface">5.1.2 <strong>Graphical=
- User Interface</strong></h3>
-<p><strong>=D0=9C=D0=B5=D1=82=D0=B0:</strong> =D0=9F=D0=B5=D1=80=D0=B5=D0=
-=B2=D1=96=D1=80=D0=B8=D1=82=D0=B8 <strong>Registration form</strong> =D0=BD=
-=D0=B0 =D0=B2=D1=96=D0=B4=D0=BF=D0=BE=D0=B2=D1=96=D0=B4=D0=BD=D1=96=D1=81=
-=D1=82=D1=8C =D0=B2=D0=B8=D0=BC=D0=BE=D0=B3 =D0=B4=D0=BE =D0=B3=D1=80=D0=B0=
-=D1=84=D1=96=D1=87=D0=BD=D0=BE=D0=B3=D0=BE =D1=96=D0=BD=D1=82=D0=B5=D1=80=
-=D1=84=D0=B5=D0=B9=D1=81=D1=83 =D0=BA=D0=BE=D1=80=D0=B8=D1=81=D1=82=D1=83=
-=D0=B2=D0=B0=D1=87=D0=B0, =D1=8F=D0=BA=D1=96 =D0=B7=D0=B0=D0=B7=D0=BD=D0=B0=
-=D1=87=D0=B5=D0=BD=D1=96 =D0=B2 =D0=BF.5.3.3.</p>
-<h3 id=3D"Testplanme24-5.1.3Cross-browserandcross-platformtesting">5.1.3 Cr=
-oss-browser and cross-platform testing</h3>
-<p>=D0=9F=D0=B5=D1=80=D0=B5=D0=BB=D1=96=D1=87=D0=B5=D0=BD=D1=96 =D0=B2=D0=
-=B8=D0=B4=D0=B8 =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=
-=8F =D0=B1=D1=83=D0=B4=D1=83=D1=82=D1=8C =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D1=
-=96=D1=80=D0=B5=D0=BD=D1=96 =D0=B7=D0=B3=D1=96=D0=B4=D0=BD=D0=BE =D0=BE=D1=
-=82=D0=BE=D1=87=D0=B5=D0=BD=D0=BD=D1=8F (=D0=B4=D0=B8=D0=B2. <strong>=D1=80=
-=D0=BE=D0=B7=D0=B4=D1=96=D0=BB 10</strong>).</p>
-<h3 id=3D"Testplanme24-5.1.4SmokeTesting">5.1.4 Smoke Testing</h3>
-<p><strong>=D0=9C=D0=B5=D1=82=D0=B0:</strong> =D0=97=D0=B0=D0=B1=D0=B5=D0=
-=B7=D0=BF=D0=B5=D1=87=D0=B8=D1=82=D0=B8 =D1=89=D0=BE=D0=B1 =D0=B2=D1=81=D1=
-=96 =D0=BA=D1=80=D0=B8=D1=82=D0=B8=D1=87=D0=BD=D1=96 =D0=B2=D0=B0=D0=B6=D0=
-=BB=D0=B8=D0=B2=D1=96 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D1=96=D1=97 =D0=BF=D1=
-=80=D0=B0=D1=86=D1=8E=D1=8E=D1=82=D1=8C =D0=B7=D0=B3=D1=96=D0=B4=D0=BD=D0=
-=BE =D0=BE=D1=87=D1=96=D0=BA=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F=D0=BC =D0=
-=97=D0=B0=D0=BC=D0=BE=D0=B2=D0=BD=D0=B8=D0=BA=D0=B0.</p>
-<p>=D0=94=D0=BE =D0=BA=D1=80=D0=B8=D1=82=D0=B8=D1=87=D0=BD=D0=B8=D1=85 =D1=
-=84=D1=83=D0=BD=D0=BA=D1=86=D1=96=D0=B9 =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=
-=BA=D1=82=D1=83 =D0=B2=D1=96=D0=B4=D0=BD=D0=BE=D1=81=D0=B8=D1=82=D1=8C=D1=
-=81=D1=8F:</p>
-<ul>
-<li><p>=D0=A0=D0=B5=D1=94=D1=81=D1=82=D1=80=D0=B0=D1=86=D1=96=D1=8F =D0=B2 =
-=D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=96 =D1=96 =D0=B7=D0=B1=D0=B5=D1=80=
-=D0=B5=D0=B6=D0=B5=D0=BD=D0=BD=D1=8F =D0=B4=D0=B0=D0=BD=D0=B8=D1=85 Email &=
-amp; Password =D0=B2 =D0=B1=D0=B0=D0=B7=D1=96 meest24;</p></li>
-<li><p>=D0=A0=D0=B5=D1=94=D1=81=D1=82=D1=80=D0=B0=D1=86=D1=96=D1=8F =D0=BF=
-=D1=80=D0=B8 =D1=80=D1=96=D0=B7=D0=BD=D0=B8=D1=85 =D1=84=D1=83=D0=BD=D0=BA=
-=D1=86=D1=96=D1=8F=D1=85 =D0=BB=D0=BE=D0=BA=D0=B0=D0=BB=D1=96=D0=B7=D0=B0=
-=D1=86=D1=96=D1=97 : =E2=80=9C=D1=83=D0=BA=D1=80=E2=80=9D, =E2=80=9Ceng=E2=
-=80=9D;</p></li>
-<li><p>=D0=92=D1=96=D0=B4=D0=BF=D0=BE=D0=B2=D1=96=D0=B4=D0=BD=D1=96=D1=81=
-=D1=82=D1=8C =D0=B5=D0=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=82=D1=96=D0=B2 =D0=B3=
-=D1=80=D0=B0=D1=84=D1=96=D1=87=D0=BD=D0=BE=D0=B3=D0=BE =D0=B4=D0=B8=D0=B7=
-=D0=B0=D0=B9=D0=BD=D1=83 =D0=B2=D0=B8=D0=BC=D0=BE=D0=B3=D0=B0=D0=BC, =D1=8F=
-=D0=BA=D1=96 =D0=B7=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D1=96 =D0=B2 =
-=D0=BF=D1=83=D0=BD=D0=BA=D1=82=D1=96 5.3.3.</p></li>
-</ul>
-<h2 id=3D"Testplanme24-5.2Metrics">5.2 Metrics</h2>
-<h3 id=3D"Testplanme24-5.2.1.Severity">5.2.1. Severity </h3>
-<p><strong>=D0=A1=D0=B5=D1=80=D0=B9=D0=BE=D0=B7=D0=BD=D1=96=D1=81=D1=82=D1=
-=8C/ =D0=9A=D1=80=D0=B8=D1=82=D0=B8=D1=87=D0=BD=D1=96=D1=81=D1=82=D1=8C (Se=
-verity)</strong> - =D0=BF=D0=BE=D0=BA=D0=B0=D0=B7=D1=8B=D0=B2=D0=B0=D0=B5=
-=D1=82 =D0=B2=D0=BB=D0=B8=D1=8F=D0=BD=D0=B8=D0=B5 =D0=B4=D0=B5=D1=84=D0=B5=
-=D0=BA=D1=82=D0=B0 =D0=BD=D0=B0 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=
-=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D1=81=D0=B8=D1=81=
-=D1=82=D0=B5=D0=BC=D1=8B (=D0=B2=D0=B0=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D1=8C =
-=D0=B4=D0=BB=D1=8F =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B)<br>=E2=97=8F=
- <strong>Blocker</strong>. =D0=9F=D0=BE=D0=BC=D0=B8=D0=BB=D0=BA=D0=B0 =D1=
-=8F=D0=BA=D0=B0 =D0=BF=D1=80=D0=B8=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=D1=8C =D0=
-=B4=D0=BE =D0=BD=D0=B5=D1=80=D0=BE=D0=B1=D0=BE=D1=87=D0=BE=D0=B3=D0=BE =D1=
-=81=D1=82=D0=B0=D0=BD=D1=83 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D0=B8. =D0=
-=A2=D0=BE=D1=82=D0=BE=D0=B6=D0=BD=D0=BE Crashes. </p>
-<p>=E2=97=8F <strong>Critical</strong>. =D0=9A=D1=80=D0=B8=D1=82=D0=B8=D1=
-=87=D0=BD=D0=B8=D0=B9 =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82, =D1=8F=D0=BA=D0=
-=B8=D0=B9 =D0=BF=D1=80=D0=B8=D0=B7=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=D1=8C =D0=
-=B4=D0=B5=D1=8F=D0=BA=D0=B8=D0=B9 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D1=96=D0=
-=BE=D0=BD=D0=B0=D0=BB =D0=B2 =D0=BD=D0=B5=D1=80=D0=BE=D0=B1=D0=BE=D1=87=D0=
-=B8=D0=B9 =D1=81=D1=82=D0=B0=D0=BD. =D0=A2=D0=B0=D0=BA=D0=BE=D0=B6 =D1=86=
-=D0=B5 =D0=BC=D0=BE=D0=B6=D0=B5 =D0=B1=D1=83=D1=82=D0=B8 =D1=81=D1=83=D1=82=
-=D1=82=D1=94=D0=B2=D0=B5 =D0=B2=D1=96=D0=B4=D1=85=D0=B8=D0=BB=D0=B5=D0=BD=
-=D0=BD=D1=8F =D0=B2=D1=96=D0=B4 =D0=B1=D1=96=D0=B7=D0=BD=D0=B5=D1=81 =D0=BB=
-=D0=BE=D0=B3=D1=96=D0=BA=D0=B8 =D1=82=D0=B0 =D0=BD=D0=B5=D0=BF=D1=80=D0=B0=
-=D0=B2=D0=B8=D0=BB=D1=8C=D0=BD=D0=B0 =D1=80=D0=B5=D0=B0=D0=BB=D1=96=D0=B7=
-=D0=B0=D1=86=D1=96=D1=8F =D1=84=D1=83=D0=BD=D0=BA=D1=86=D1=96=D0=B9.</p>
-<p>=E2=97=8F <strong>Major</strong>. =D0=A1=D1=83=D1=82=D1=82=D1=94=D0=B2=
-=D0=B0 =D0=BF=D0=BE=D0=BC=D0=B8=D0=BB=D0=BA=D0=B0, =D1=8F=D0=BA=D0=B0 =D0=
-=B4=D0=B5=D0=BC=D0=BE=D0=BD=D1=81=D1=82=D1=80=D1=83=D1=94 =D0=B2=D1=96=D0=
-=B4=D1=85=D0=B8=D0=BB=D0=B5=D0=BD=D0=BD=D1=8F =D0=B2=D1=96=D0=B4 =D0=B1=D1=
-=96=D0=B7=D0=BD=D0=B5=D1=81 =D0=BB=D0=BE=D0=B3=D1=96=D0=BA=D0=B8 =D0=B0=D0=
-=B1=D0=BE =D0=BF=D0=BE=D1=80=D1=83=D1=88=D1=83=D1=94 =D1=80=D0=BE=D0=B1=D0=
-=BE=D1=82=D1=83 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D1=96=D1=97. =D0=9D=D0=B5=D0=
-=BC=D0=B0=D1=94 =D0=BA=D1=80=D0=B8=D1=82=D0=B8=D1=87=D0=BD=D0=BE=D0=B3=D0=
-=BE =D0=B2=D0=BF=D0=BB=D0=B8=D0=B2=D1=83 =D0=BD=D0=B0 =D1=84=D1=83=D0=BD=D0=
-=BA=D1=86=D1=96=D1=8E. </p>
-<p>=E2=97=8F <strong>Minor</strong>. =D0=9D=D0=B5=D0=B7=D0=BD=D0=B0=D1=87=
-=D0=BD=D0=B8=D0=B9 =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82, =D1=8F=D0=BA=D0=B8=
-=D0=B9 =D0=BD=D0=B5 =D0=BF=D0=BE=D1=80=D1=83=D1=88=D1=83=D1=94 =D1=84=D1=83=
-=D0=BD=D0=BA=D1=86=D1=96=D0=BE=D0=BD=D0=B0=D0=BB, =D0=B0=D0=BB=D0=B5 =D1=8F=
-=D0=BA=D0=B8=D0=B9 =D0=BD=D0=B5 =D0=B2=D1=96=D0=B4=D0=BF=D0=BE=D0=B2=D1=96=
-=D0=B4=D0=B0=D1=94 =D0=BE=D1=87=D1=96=D0=BA=D1=83=D0=B2=D0=B0=D0=BD=D0=B8=
-=D0=BC =D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82=D0=B0=D0=BC. =
-</p>
-<p>=E2=97=8F <strong>Trivial</strong>. Bug, =D1=8F=D0=BA=D0=B8=D0=B9 =D0=BD=
-=D0=B5 =D0=B2=D0=BF=D0=BB=D0=B8=D0=B2=D0=B0=D1=94 =D0=BD=D0=B0 =D1=84=D1=83=
-=D0=BD=D0=BA=D1=86=D1=96=D0=BE=D0=BD=D0=B0=D0=BB =D0=B0=D0=B1=D0=BE =D1=80=
-=D0=BE=D0=B1=D0=BE=D1=82=D1=83 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=
-=D0=B8, =D0=B0=D0=BB=D0=B5 =D1=8F=D0=BA=D0=B8=D0=B9 =D0=B2=D0=B8=D1=8F=D0=
-=B2=D0=BB=D1=8F=D1=94=D1=82=D1=8C=D1=81=D1=8F =D0=B2=D1=96=D0=B7=D1=83=D0=
-=B0=D0=BB=D1=8C=D0=BD=D0=BE.</p>
-<h3 id=3D"Testplanme24-5.2.2.Priority">5.2.2. Priority</h3>
-<p><strong>=D0=9F=D1=80=D0=B8=D0=BE=D1=80=D1=96=D1=82=D0=B5=D1=82 (Priority=
-)</strong> - =D0=B2=D0=B8=D0=B7=D0=BD=D0=B0=D1=87=D0=B0=D1=94 =D0=BD=D0=B0=
-=D1=81=D0=BA=D1=96=D0=BB=D1=8C=D0=BA=D0=B8 =D1=88=D0=B2=D0=B8=D0=B4=D0=BA=
-=D0=BE =D0=BF=D0=BE=D1=82=D1=80=D1=96=D0=B1=D0=BD=D0=BE =D0=B2=D0=B8=D0=BF=
-=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D0=B8 =D0=BF=D0=BE=D0=BC=D0=B8=D0=BB=D0=BA=
-=D1=83<br>=E2=97=8F <strong>High</strong>. Bug =D0=BF=D0=BE=D0=B2=D0=B8=D0=
-=BD=D0=B5=D0=BD =D0=B1=D1=83=D1=82=D0=B8 =D0=B2=D0=B8=D0=BF=D1=80=D0=B0=D0=
-=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B9 =D1=8F=D0=BA =D1=83=D0=BC=D0=BE=D0=B3=D0=
-=B0 =D1=88=D0=B2=D0=B8=D0=B4=D1=88=D0=B5, =D1=82=D0=B0=D0=BA =D1=8F=D0=BA =
-=D0=B2=D1=96=D0=BD =D0=BA=D1=80=D0=B8=D1=82=D0=B8=D1=87=D0=BD=D0=BE =D0=B2=
-=D0=BF=D0=BB=D0=B8=D0=B2=D0=B0=D1=94 =D0=BD=D0=B0 =D0=BF=D1=80=D0=B0=D1=86=
-=D0=B5=D0=B7=D0=B4=D0=B0=D1=82=D0=BD=D1=96=D1=81=D1=82=D1=8C =D1=84=D1=83=
-=D0=BD=D0=BA=D1=86=D1=96=D1=97. </p>
-<p>=E2=97=8F <strong>Medium</strong>. Bug =D0=BF=D0=BE=D0=B2=D0=B8=D0=BD=D0=
-=B5=D0=BD =D0=B1=D1=83=D1=82=D0=B8 =D0=BE=D0=B1=D0=BE=D0=B2=D1=8F=D0=B7=D0=
-=BA=D0=BE=D0=B2=D0=BE =D0=B2=D0=B8=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=
-=BD=D0=B8=D0=B9, =D0=B0=D0=BB=D0=B5 =D0=B2=D1=96=D0=BD =D0=BD=D0=B5 =D0=BA=
-=D1=80=D0=B8=D1=82=D0=B8=D1=87=D0=BD=D0=BE =D0=B2=D0=BF=D0=BB=D0=B8=D0=B2=
-=D0=B0=D1=94 =D0=BD=D0=B0 =D1=80=D0=BE=D0=B1=D0=BE=D1=82=D1=83 =D1=84=D1=83=
-=D0=BD=D0=BA=D1=86=D1=96=D1=97. </p>
-<p>=E2=97=8F <strong>Low</strong>. Bug =D0=BF=D0=BE=D0=B2=D0=B8=D0=BD=D0=BD=
-=D0=B0 =D0=B1=D0=B8=D1=82=D0=B8 =D0=B2=D0=B8=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=
-=D0=B5=D0=BD=D0=B0, =D0=B0=D0=BB=D0=B5 =D0=B2=D0=BE=D0=BD=D0=B0 =D0=BD=D0=
-=B5 =D0=B2=D0=BF=D0=BB=D0=B8=D0=B2=D0=B0=D1=94 =D0=BA=D1=80=D0=B8=D1=82=D0=
-=B8=D1=87=D0=BD=D0=BE =D0=BD=D0=B0 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D1=96=D1=
-=8E =D1=96 =D0=BC=D0=BE=D0=B6=D0=B5 =D0=B1=D1=83=D1=82=D0=B8 =D0=B2=D1=96=
-=D0=B4=D0=BA=D1=80=D0=B0=D0=B4=D0=B5=D0=BD=D0=B0 =D0=B4=D0=BE =D0=BD=D0=BE=
-=D0=B2=D0=BE=D0=B3=D0=BE =D1=80=D0=B5=D0=BB=D1=96=D0=B7=D1=83.</p>
-<p>=D0=9F=D1=80=D0=B8=D0=BA=D0=BB=D0=B0=D0=B4 =D0=BF=D1=80=D0=B5=D0=B4=D1=
-=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BD=D1=8F =D0=BE=D1=86=D1=96=D0=
-=BD=D0=BA=D0=B8 =D1=83 Bug reports:</p>
-<div class=3D"table-wrap">
-<table data-layout=3D"default" data-local-id=3D"96dd43f1-0e5b-4a83-8205-c92=
-8e63c2565" class=3D"confluenceTable">
-<colgroup>
-<col style=3D"width: 181.0px;">
-<col style=3D"width: 171.0px;">
-<col style=3D"width: 151.0px;">
-<col style=3D"width: 130.0px;">
-<col style=3D"width: 127.0px;">
-</colgroup>
-<tbody>
-<tr>
-<td rowspan=3D"7" class=3D"confluenceTd"><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp=
-;</p><p style=3D"text-align: center;"><strong>Severity</strong></p></td>
-<td class=3D"confluenceTd"><p><strong>S1 (Blocker)</strong></p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p><strong>S2 (Critical)</strong></p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p><strong>S3 (Major)</strong></p></td>
-<td data-highlight-colour=3D"white" class=3D"confluenceTd"><p><strong>&nbsp=
-;</strong></p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-<td data-highlight-colour=3D"white" class=3D"confluenceTd"><p>&nbsp;</p></t=
-d>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p><strong>S4 (Minor)</strong></p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p><strong>S5 (Trivial)</strong></p></td>
-<td data-highlight-colour=3D"#ffe7e7" class=3D"confluenceTd"><p style=3D"te=
-xt-align: center;"><strong><span style=3D"color: rgb(255,255,255);">S5-P3</=
-span></strong></p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong>P3 Low<=
-/strong></p></td>
-<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong>P2 Medi=
-um</strong></p></td>
-<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong>P1 High=
-</strong></p></td>
-</tr>
-<tr>
-<td colspan=3D"4" class=3D"confluenceTd"><p style=3D"text-align: center;"><=
-strong>Priority</strong></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id=3D"Testplanme24-5.3Specialrequirements">5.3 Special requirements</h2=
->
-<p>5.3.1. =D0=92=D0=B8=D0=BC=D0=BE=D0=B3=D0=B8 =D0=B4=D0=BE =D0=BF=D0=BE=D0=
-=BB=D1=8F <strong>Email</strong>:</p>
-<ul>
-<li><p>=D1=83 =D0=BF=D0=BE=D0=BB=D1=96 =D0=BF=D0=BE=D0=B2=D0=B8=D0=BD=D0=B8=
-=D0=B9 =D0=B1=D1=83=D1=82=D0=B8 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB =E2=80=
-=9C@=E2=80=9D. =D0=AF=D0=BA=D1=89=D0=BE =D0=B2=D1=96=D0=BD =D0=B2=D1=96=D0=
-=B4=D1=81=D1=83=D1=82=D0=BD=D1=96=D0=B9 =D0=BF=D0=BE=D0=B2=D0=B8=D0=BD=D0=
-=BD=D0=BE =D0=B1=D1=83=D1=82=D0=B8 =D0=BF=D0=BE=D0=B2=D1=96=D0=B4=D0=BE=D0=
-=BC=D0=BB=D0=B5=D0=BD=D0=BD=D1=8F =E2=80=9CEmail =D0=B2=D0=B2=D0=B5=D0=B4=
-=D0=B5=D0=BD=D0=BE =D0=BD=D0=B5 =D0=B2=D1=96=D1=80=D0=BD=D0=BE. =D0=9F=D0=
-=B5=D1=80=D0=B5=D0=B2=D1=96=D1=80=D1=82=D0=B5 =D0=BD=D0=B0=D1=8F=D0=B2=D0=
-=BD=D1=96=D1=81=D1=82=D1=8C =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D1=83 @=E2=
-=80=9D</p></li>
-</ul>
-<p>5.3.2.=D0=92=D0=B8=D0=BC=D0=BE=D0=B3=D0=B8 =D0=B4=D0=BE =D0=BF=D0=BE=D0=
-=BB=D1=8F <strong>Password</strong>:</p>
-<ul>
-<li><p>=D0=B4=D0=BE=D0=B2=D0=B6=D0=B8=D0=BD=D0=B0 =D0=BF=D0=B0=D1=80=D0=BE=
-=D0=BB=D1=8E =D0=BF=D0=BE=D0=B2=D0=B8=D0=BD=D0=BD=D0=B0 =D0=B1=D1=83=D1=82=
-=D0=B8 =D0=B2=D1=96=D0=B4 8 =D0=B4=D0=BE 20 =D0=B7=D0=BD=D0=B0=D0=BA=D1=96=
-=D0=B2</p></li>
-<li><p>=D1=8F=D0=BA =D0=BC=D1=96=D0=BD=D1=96=D0=BC=D1=83=D0=BC =D0=BE=D0=B4=
-=D0=BD=D0=B0 =D0=BB=D0=B0=D1=82=D0=B8=D0=BD=D1=81=D1=8C=D0=BA=D0=B0 =D0=B1=
-=D1=83=D0=BA=D0=B2=D0=B0. =D0=A0=D0=B5=D0=B3=D1=96=D1=81=D1=82=D1=80 =D0=BD=
-=D0=B5=D0=BC=D0=B0=D1=94 =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=BD=D1=8F.<=
-/p></li>
-<li><p>=D1=8F=D0=BA =D0=BC=D1=96=D0=BD=D1=96=D0=BC=D1=83=D0=BC =D0=BE=D0=B4=
-=D0=BD=D0=B0 =D0=B1=D1=83=D0=BA=D0=B2=D0=B0 =D0=BA=D0=B8=D1=80=D0=B8=D0=BB=
-=D0=B5=D1=86=D0=B5=D1=8E. =D0=A0=D0=B5=D0=B3=D1=96=D1=81=D1=82=D1=80 =D0=BD=
-=D0=B5=D0=BC=D0=B0=D1=94 =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=BD=D1=8F.<=
-/p></li>
-<li><p>=D1=8F=D0=BA =D0=BC=D1=96=D0=BD=D1=96=D0=BC=D1=83=D0=BC =D0=BE=D0=B4=
-=D0=BD=D0=B0 =D1=86=D0=B8=D1=84=D1=80=D0=B0.</p></li>
-<li><p>=D1=8F=D0=BA =D0=BC=D1=96=D0=BD=D1=96=D0=BC=D1=83=D0=BC =D0=BE=D0=B4=
-=D0=B8=D0=BD =D1=81=D0=BF=D0=B5=D1=86=D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB :=
- &amp;, $, #</p></li>
-</ul>
-<p>=D0=AF=D0=BA=D1=89=D0=BE =D0=B2=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=
-=B9 =D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C =D0=BD=D0=B5 =D0=B2=D1=96=D0=B4=D0=
-=BF=D0=BE=D0=B2=D1=96=D0=B4=D0=B0=D1=94 =D0=B2=D0=B8=D1=89=D0=B5 =D0=B7=D0=
-=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=BC =D0=B2=D0=B8=D0=BC=D0=
-=BE=D0=B3=D0=B0=D0=BC =D0=BF=D0=BE=D0=B2=D0=B8=D0=BD=D0=BD=D0=BE =D0=B1=D1=
-=83=D1=82=D0=B8 =D0=BF=D0=BE=D0=B2=D1=96=D0=B4=D0=BE=D0=BC=D0=BB=D0=B5=D0=
-=BD=D0=BD=D1=8F =E2=80=9CPassword=E2=80=9D =D0=B2=D0=B2=D0=B5=D0=B4=D0=B5=
-=D0=BD=D0=BE =D0=BD=D0=B5 =D0=B2=D1=96=D1=80=D0=BD=D0=BE. =D0=94=D0=BE=D0=
-=B2=D0=B6=D0=B8=D0=BD=D0=B0 =D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8E =D0=BF=D0=
-=BE=D0=B2=D0=B8=D0=BD=D0=BD=D0=B0 =D0=B1=D1=83=D1=82=D0=B8 =D0=B2=D1=96=D0=
-=B4 8 =D0=B4=D0=BE 20 =D0=B7=D0=BD=D0=B0=D0=BA=D1=96=D0=B2, min 1 =D0=BB=D0=
-=B0=D1=82=D0=B8=D0=BD=D1=81=D1=8C=D0=BA=D0=B0 =D0=B1=D1=83=D0=BA=D0=B2=D0=
-=B0, min 1 =D0=B1=D1=83=D0=BA=D0=B2=D0=B0 =D0=BA=D0=B8=D1=80=D0=B8=D0=BB=D0=
-=B8=D1=86=D1=8F, min 1 =D1=86=D0=B8=D1=84=D1=80=D0=B0, min 1 =D1=81=D0=BF=
-=D0=B5=D1=86=D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=E2=80=9D</p>
-<p>=D0=92=D0=B0=D0=BB=D1=96=D0=B4=D0=BD=D1=96 =D0=B4=D0=B0=D0=BD=D1=96 =D0=
-=B4=D0=BB=D1=8F =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D1=96=D1=80=D0=BA=D0=B8:</p>
-<p><strong>Email 1 </strong>: <a class=3D"external-link" href=3D"mailto:tes=
-t@meest24.com" rel=3D"nofollow">test@meest24.com</a></p>
-<p><strong>Password 1 </strong>: QWER=D0=99=D0=A4=D0=AF1234$</p>
-<p><strong>Email 2 </strong>: <a class=3D"external-link" href=3D"mailto:tes=
-t@meest24.com" rel=3D"nofollow">test1@meest24.com</a></p>
-<p><strong>Password 2 </strong>: QAZ=D0=B9=D1=86=D1=83=D0=BA4321&amp;</p>
-<p>5.3.3. =D0=92=D0=B8=D0=BC=D0=BE=D0=B3=D0=B8 =D0=B4=D0=BE =D0=B5=D0=BB=D0=
-=B5=D0=BC=D0=B5=D0=BD=D1=82=D1=96=D0=B2 <strong>Registration form</strong>:=
-</p>
-<ul>
-<li><p>=D0=A0=D0=BE=D0=B7=D0=BC=D1=96=D1=80 =D1=84=D0=BE=D1=80=D0=BC=D0=B8:=
- =D1=88=D0=B8=D1=80=D0=B8=D0=BD=D0=B0 30vw, =D0=B2=D0=B8=D1=81=D0=BE=D1=82=
-=D0=B0 80vh</p></li>
-<li><p>=D0=97=D0=BE=D0=B2=D0=BD=D1=96=D1=88=D0=BD=D1=96 =D0=B2=D1=96=D0=B4=
-=D1=81=D1=82=D1=83=D0=BF=D0=B8 =D0=BC=D1=96=D0=B6 =D0=B5=D0=BB=D0=B5=D0=BC=
-=D0=B5=D0=BD=D1=82=D0=B0=D0=BC=D0=B8 margin-top =3D 1rem</p></li>
-<li><p>=D0=97=D0=B0=D0=B2=D0=BA=D1=80=D1=83=D0=B3=D0=BB=D0=B5=D0=BD=D0=BD=
-=D1=8F =D0=BA=D0=BD=D0=BE=D0=BF=D0=BE=D0=BA 2rem</p></li>
-<li><p>=D0=9A=D0=BE=D0=BB=D1=96=D1=80 =D0=B4=D0=B8=D0=B7=D0=B0=D0=B9=D0=BD=
-=D1=83: blue, red =D0=B7=D0=B3=D1=96=D0=B4=D0=BD=D0=BE RGB</p></li>
-</ul>
-<h1 id=3D"Testplanme24-6.Acceptancecriteria"><strong>6. Acceptance criteria=
-</strong></h1>
-<h2 id=3D"Testplanme24-6.1.Acceptancecriteria:">6.1. Acceptance criteria:</=
-h2>
-<p>=D0=9E=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D1=96 =D0=BF=D0=BE=D0=BA=D0=B0=D0=
-=B7=D0=BD=D0=B8=D0=BA=D0=B8 =D1=8F=D0=BA=D0=BE=D1=81=D1=82=D1=96, =D1=8F=D0=
-=BA=D0=B8=D0=BC =D0=BF=D0=BE=D0=B2=D0=B8=D0=BD=D0=BD=D0=B0 =D0=B2=D1=96=D0=
-=B4=D0=BF=D0=BE=D0=B2=D1=96=D0=B4=D0=B0=D1=82=D0=B8 <strong>Registration fo=
-rm</strong> =D1=96 =D0=BC=D0=BE=D0=B6=D0=B5 =D0=B1=D1=83=D1=82=D0=B8 =D0=BF=
-=D1=80=D0=B8=D0=B9=D0=BD=D1=8F=D1=82=D0=B0 =D0=BF=D1=96=D1=81=D0=BB=D1=8F =
-=D0=B2=D0=B8=D0=BA=D0=BE=D0=BD=D0=B0=D0=BD=D0=BD=D1=8F =D0=BD=D0=B0=D1=81=
-=D1=82=D1=83=D0=BF=D0=BD=D0=B8=D1=85 =D1=83=D0=BC=D0=BE=D0=B2:</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =D0=97=D0=B0=D0=B3=D0=B0=D0=BB=
-=D1=8C=D0=BD=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=
-=D1=8F =D0=B7=D0=B3=D1=96=D0=B4=D0=BD=D0=BE =D1=86=D1=8C=D0=BE=D0=B3=D0=BE =
-=D0=BF=D0=BB=D0=B0=D0=BD=D1=83 =D0=B2=D0=B8=D0=BA=D0=BE=D0=BD=D0=B0=D0=BD=
-=D0=BE =D0=BD=D0=B0 95%.</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =D0=92 =D1=80=D0=B5=D0=B7=D1=83=
-=D0=BB=D1=8C=D1=82=D0=B0=D1=82=D1=96 =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=
-=D0=B0=D0=BD=D0=BD=D1=8F =D0=BD=D0=B5 =D0=B1=D1=83=D0=BB=D0=B8 =D0=B2=D0=B8=
-=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD=D1=96 =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=
-=D0=B8 Severety =D1=82=D0=B0 Priority =D0=BD=D0=B8=D0=B6=D1=87=D0=B5 =D0=B0=
-=D0=B1=D0=BE =D0=B4=D0=BE=D1=80=D1=96=D0=B2=D0=BD=D1=8E=D1=94 =D1=80=D1=96=
-=D0=B2=D0=BD=D1=8F Minor (=D0=B7=D0=B3=D1=96=D0=B4=D0=BD=D0=BE =D0=B2=D0=B8=
-=D0=BC=D0=BE=D0=B3 =D0=BF.5.2).</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =D0=A4=D1=83=D0=BD=D0=BA=D1=86=
-=D1=96=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=96 =D1=82=D0=B5=D1=81=D1=82=
-=D0=B8 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D1=96 =D0=BD=D0=B0 =
-100%.</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =D0=97=D0=B0=D0=BB=D0=B8=D1=88=
-=D0=BA=D0=BE=D0=B2=D0=B0 =D0=BA=D1=96=D0=BB=D1=8C=D0=BA=D1=96=D1=81=D1=82=
-=D1=8C =D0=BD=D0=B5 =D0=B7=D0=B0=D0=BA=D1=80=D0=B8=D1=82=D0=B8=D1=85 Bugs =
-=D0=BF=D0=BE=D0=B2=D0=B8=D0=BD=D0=BD=D0=B0 =D0=B1=D1=83=D1=82=D0=B8 =D0=BD=
-=D0=B5 =D0=B1=D1=96=D0=BB=D1=8C=D1=88=D0=B5 3 =D0=B7 =D0=BC=D1=96=D0=BD=D1=
-=96=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=B8=D0=BC =D0=BF=D1=80=D1=96=D0=BE=D1=
-=80=D0=B8=D1=82=D0=B5=D1=82=D0=BE=D0=BC</p>
-<h2 id=3D"Testplanme24-6.2Criteriaarenotaccepted:">6.2 Criteria are not acc=
-epted:</h2>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp; =D0=97=D0=B0=D0=BB=D0=B8=D1=88=D0=B8=D0=BB=
-=D0=B8=D1=81=D1=8C =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=D0=B8, =D1=8F=D0=BA=
-=D1=96 =D0=BC=D0=B0=D1=8E=D1=82=D1=8C Priority =D1=80=D1=96=D0=B2=D0=B5=D0=
-=BD=D1=8C Major.</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp; =D0=A4=D1=83=D0=BD=D0=BA=D1=86=D1=96=D0=BE=
-=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=
-=D0=B0=D0=BD=D0=BD=D1=8F =D0=BD=D0=B5 =D0=BF=D1=80=D0=BE=D0=B9=D0=BB=D0=BE =
-=D0=BD=D0=B0 100%.</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp; =D0=9F=D1=96=D0=B4 =D1=87=D0=B0=D1=81 Smoke =
-Testing =D0=B2=D0=B8=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE =D0=B4=D0=B5=D1=84=
-=D0=B5=D0=BA=D1=82=D0=B8 =D0=B2=D0=B8=D1=81=D0=BE=D0=BA=D0=BE=D1=97 =D0=BF=
-=D1=80=D1=96=D0=BE=D1=80=D0=B8=D1=82=D0=B5=D1=82=D0=BD=D0=BE=D1=81=D1=82=D1=
-=96.</p>
-<h1 id=3D"Testplanme24-7.SuspensionCriteriaandResumptionRequirements"><stro=
-ng>7. Suspension Criteria and Resumption Requirements</strong></h1>
-<p>=D0=9D=D0=B0=D1=8F=D0=B2=D0=BD=D1=96=D1=81=D1=82=D1=8C =D0=BA=D1=80=D0=
-=B8=D1=82=D0=B8=D1=87=D0=BD=D0=B8=D1=85 =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=
-=82=D1=96=D0=B2, =D1=8F=D0=BA=D1=96 =D0=B1=D0=BB=D0=BE=D0=BA=D1=83=D1=8E=D1=
-=82=D1=8C =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D0=B8 =D1=82=D0=B5=D1=81=D1=
-=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F</p>
-<h1 id=3D"Testplanme24-8.Testitems">8. <strong>Test items</strong></h1>
-<p>=D0=9E=D0=B7=D0=BD=D0=B0=D0=B9=D0=BE=D0=BC=D0=B8=D1=82=D0=B8=D1=81=D1=8C=
- =D0=B7 =D0=BE=D1=81=D0=BE=D0=B1=D0=BB=D0=B8=D0=B2=D0=B8=D0=BC=D0=B8 =D0=B2=
-=D0=B8=D0=BC=D0=BE=D0=B3=D0=B0=D0=BC=D0=B8 =D0=B7=D0=B3=D1=96=D0=B4=D0=BD=
-=D0=BE =D0=BF=D1=83=D0=BD=D0=BA=D1=82=D1=96=D0=B2 5.3.2 =D1=82=D0=B0 5.3.3 =
-=D0=B4=D0=B0=D0=BD=D0=BE=D0=B3=D0=BE Test plan.</p>
-<p>=D0=A1=D0=BA=D0=BB=D0=B0=D1=81=D1=82=D0=B8 =D1=82=D0=B5=D1=81=D1=82=D0=
-=BE=D0=B2=D1=83 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=
-=86=D1=96=D1=8E =D0=B7=D0=B3=D1=96=D0=B4=D0=BD=D0=BE Test Deliverables:</p>
-<p>Test plan , Test case, Bug Reports, Test Reports.</p>
-<p>=D0=9F=D1=80=D0=BE=D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=
-=D1=82=D1=8C =D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=BD=D0=BE =D1=82=D0=B5=
-=D1=81=D1=82=D0=BE=D0=B2=D0=BE=D0=B9 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=
-=D0=BD=D1=82=D0=B0=D1=86=D0=B8=D0=B8 =D0=BD=D0=BE=D0=B2=D1=8B=D0=B5 =D1=82=
-=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F.</p>
-<h1 id=3D"Testplanme24-9.Testdeliverables">9. <strong>Test deliverables</st=
-rong></h1>
-<ol>
-<li><p>Test plan</p></li>
-<li><p>Test case</p></li>
-<li><p>Bug Reports&nbsp;</p></li>
-<li><p>Test Reports</p></li>
-</ol>
-<h1 id=3D"Testplanme24-10.EnvironmentalNeeds"><strong>10. Environmental Nee=
-ds</strong></h1>
-<p>=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=9E=D0=A1 =D0=B4=D0=BB=D1=8F =D1=
-=82=D0=B5=D1=81=D1=82=D1=83=D0=B2=D0=B0=D0=BD=D0=BD=D1=8F:</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
-sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Windows</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
-sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IOS</p>
-<p>=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=B1=D1=80=D0=B0=D1=83=D0=B7=D0=
-=B5=D1=80=D1=96=D0=B2 =D0=B4=D0=BB=D1=8F =D1=82=D0=B5=D1=81=D1=82=D1=83=D0=
-=B2=D0=B0=D0=BD=D0=BD=D1=8F:</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
-sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Safari</p>
-<p>=E2=97=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
-sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Google Chrome</p>
-<p>&nbsp;</p>
-<h1 id=3D"Testplanme24-11.Responsibilities.">11. <strong>Responsibilities</=
-strong>.</h1>
-<p>&nbsp;</p>
-<div class=3D"table-wrap">
-<table data-layout=3D"default" data-local-id=3D"1fff4c5a-c4f7-46fd-9cc1-9b9=
-4498d52e5" class=3D"confluenceTable">
-<colgroup>
-<col style=3D"width: 226.67px;">
-<col style=3D"width: 226.67px;">
-<col style=3D"width: 226.67px;">
-</colgroup>
-<tbody>
-<tr>
-<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong>Executo=
-r</strong></p></td>
-<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong>Task</s=
-trong></p></td>
-<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong>Notes</=
-strong></p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>QA Lead</p></td>
-<td class=3D"confluenceTd"><p>Update Test Plan</p></td>
-<td class=3D"confluenceTd"><p></p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>Sinor QA tester 1</p></td>
-<td class=3D"confluenceTd"><p>Writing Test Plan </p></td>
-<td class=3D"confluenceTd"><p></p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>Middle QA tester 2</p></td>
-<td class=3D"confluenceTd"><p>Writing Test cases</p></td>
-<td class=3D"confluenceTd"><p>He can create a test plan for a Senior QA tas=
-k</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>QA tester 3</p></td>
-<td class=3D"confluenceTd"><p>Execute tests</p></td>
-<td class=3D"confluenceTd"><p>&nbsp;</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h1 id=3D"Testplanme24-11.Scheduleoftesting">11. <strong>Schedule</strong> =
-<strong>of testing</strong></h1>
-<div class=3D"table-wrap">
-<table data-layout=3D"default" data-local-id=3D"f0722813-1ba7-4155-893f-2f7=
-0e0d702e0" class=3D"confluenceTable">
-<colgroup>
-<col style=3D"width: 170.0px;">
-<col style=3D"width: 170.0px;">
-<col style=3D"width: 170.0px;">
-<col style=3D"width: 170.0px;">
-</colgroup>
-<tbody>
-<tr>
-<td class=3D"confluenceTd"><p>Task</p></td>
-<td class=3D"confluenceTd"><p>Start date</p></td>
-<td class=3D"confluenceTd"><p>Duration, days</p></td>
-<td class=3D"confluenceTd"><p>End date</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>Assessment of requirements &amp; determining =
-the number of tests</p></td>
-<td class=3D"confluenceTd"><p>22/07/15</p></td>
-<td class=3D"confluenceTd"><p>2</p></td>
-<td class=3D"confluenceTd"><p>22/07/17</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>write test-case</p></td>
-<td class=3D"confluenceTd"><p>22/07/17</p></td>
-<td class=3D"confluenceTd"><p>1</p></td>
-<td class=3D"confluenceTd"><p>22/07/18</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>excute test cases</p></td>
-<td class=3D"confluenceTd"><p>22/07/18</p></td>
-<td class=3D"confluenceTd"><p>2</p></td>
-<td class=3D"confluenceTd"><p>22/07/20</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>registration bugs and write bug reports</p></=
-td>
-<td class=3D"confluenceTd"><p>22/07/18</p></td>
-<td class=3D"confluenceTd"><p>2</p></td>
-<td class=3D"confluenceTd"><p>22/07/20</p></td>
-</tr>
-<tr>
-<td class=3D"confluenceTd"><p>retesting</p></td>
-<td class=3D"confluenceTd"><p>22/07/20</p></td>
-<td class=3D"confluenceTd"><p>3</p></td>
-<td class=3D"confluenceTd"><p>22/07/23</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h1 id=3D"Testplanme24-12.RisksandContingencies">12.<strong>Risks and Conti=
-ngencies</strong></h1>
-<p>Not defined in this project</p>
-<h1 id=3D"Testplanme24-13.Approvals"><strong>13. Approvals</strong></h1>
-<p>Approved by PM.</p>
-<p></p>
-    </div>
-</body>
-</html>
-------=_Part_40_1523640955.1657894969837--
+Test plan me24
+•	1. Introduction
+•	2. Test object
+•	3. Features to be tested
+•	4. Features not to be tested
+•	5. Approach 
+o	5.1 Type of tests 
+	5.1.1 Functional testing
+	5.1.2 Graphical User Interface
+	5.1.3 Cross-browser and cross-platform testing
+	5.1.4 Smoke Testing
+o	5.2 Metrics 
+	5.2.1. General metrics at project
+	5.2.2. Assessment of bugs 
+	5.2.2.1. Severity
+	5.2.2.2. Priority
+o	5.3 Special requirements
+•	6. Acceptance criteria 
+o	6.1. Acceptance criteria:
+o	6.2 Criteria are not accepted:
+•	7. Suspension Criteria and Resumption Requirements
+•	8. Test items
+•	9. Test deliverables
+•	10. Environmental Needs
+•	11. Responsibilities.
+•	11. Schedule of testing
+•	12.Risks and Contingencies
+•	13. Approvals
+1. Introduction
+ 
+Метою даного Test plan є опис етапу тестування Registraition form https://me24.meest-group.com/ після релізу нової версії. У Test plan використані наступні типи тестування: Functional Testing, Grafic User Inerface (GUI).
+2. Test object
+Стратегія, яка описана у цьому документі, стосується Registraition form https://me24.meest-group.com/. Обєктом тестування даного плану буде Registraition form.
+3. Features to be tested
+Згідно поставленої задачі прийнято рішення протестувати:
+Реєстрацію замовників за допомогою Email та Password;
+Запис даних користувачів у базу даних meest24
+Відповідність форми реєстрації встановленим вимогам Замовника
+4. Features not to be tested
+Наступна функціональність не буде протестована:
+●                   Вхід в аккаунт;
+●                   Реєстрація користивуча через Facebook, LinkedIn;
+●                   Поновлення паролю.
+5. Approach
+Процес тестування буде проходити у 2-а етапи:
+Перший етап. Функціональне тестування процедури реєстрації користувачів з урахуванням Test Design Techniques Black Box
+Другий етап. Тестування інтрефейсу користувачів форми реєстрації
+Ці етапи повинні бути виконані згідно різного оточення, які зазначені в розділі 10 даного Test plan
+Помилки, та Bugs, які будуть виявленні в процесі тестування будуть оформлені у Jira та TestRail.
+Третій етап. В кінці процесу тестування буде оформлений звіт щодо результатів виконання тестування з урахування зазначених метрик із зазначення ступення критичності Bugs та пріоритетності їх виправлення.
+5.1 Type of tests
+5.1.1 Functional testing
+Мета: Виявити функціональні помилки під час реєстрації користувачів введення даних користувачів у відповідні поля Email та Password та добавлення цих даних до бази даних meest24 шляхом виконання встановлених Test cases.
+Для тестування будуть використані техніки Test Design - Equivalence Partitioning та Pair-wise Testing
+Фунціональне тестування необхідно провести при різних функціях локалізації : “укр”, “eng”
+5.1.2 Graphical User Interface
+Мета: Перевірити Registration form на відповідність вимог до графічного інтерфейсу користувача, які зазначені в п.5.3.3.
+5.1.3 Cross-browser and cross-platform testing
+Перелічені види тестування будуть перевірені згідно оточення (див. розділ 10).
+5.1.4 Smoke Testing
+Мета: Забезпечити щоб всі критичні важливі функції працюють згідно очікуванням Замовника.
+До критичних функцій продукту відноситься:
+•	Реєстрація в системі і збереження даних Email & Password в базі meest24;
+•	Реєстрація при різних функціях локалізації : “укр”, “eng”;
+•	Відповідність елементів графічного дизайну вимогам, які зазначені в пункті 5.3.3.
+5.2 Metrics
+5.2.1. General metrics at project
+•	Кількість зафіксованих дефектів
+•	Кількість виправлених дефектів
+•	Результативність виконання Check List = К-ть виконаних TestCases / К-ть запланованих TestCases *100%
+5.2.2. Assessment of bugs 
+Дефекти будуть оцінюватись по Серйозності / Критичності (Severity) та Приорітності (Priority)
+5.2.2.1. Severity 
+Серйозність/ Критичність (Severity) - показывает влияние дефекта на функциональность системы (важность для системы)
+● Blocker. Помилка яка приводить до неробочого стану системи. Тотожно Crashes. 
+● Critical. Критичний дефект, який призводить деякий функціонал в неробочий стан. Також це може бути суттєве відхилення від бізнес логіки та неправильна реалізація функцій.
+● Major. Суттєва помилка, яка демонструє відхилення від бізнес логіки або порушує роботу функції. Немає критичного впливу на функцію. 
+● Minor. Незначний дефект, який не порушує функціонал, але який не відповідає очікуваним результатам. 
+● Trivial. Bug, який не впливає на функціонал або роботу програми, але який виявляється візуально.
+5.2.2.2. Priority
+Приорітет (Priority) - визначає наскільки швидко потрібно виправити помилку
+● High. Bug повинен бути виправлений як умога швидше, так як він критично впливає на працездатність функції. 
+● Medium. Bug повинен бути обовязково виправлений, але він не критично впливає на роботу функції. 
+● Low. Bug повинна бити виправлена, але вона не впливає критично на функцію і може бути відкрадена до нового релізу.
+Приклад представлення оцінки у Bug reports:
+ 
+ 
+ 
+Severity	S1 (Blocker)	 	 	 
+	S2 (Critical)	 	 	 
+	S3 (Major)	 	 	 
+	S4 (Minor)	 	 	 
+	S5 (Trivial)	S5-P3	 	 
+	 	P3 Low	P2 Medium	P1 High
+	Priority
+5.3 Special requirements
+5.3.1. Вимоги до поля Email:
+•	у полі повиний бути символ “@”. Якщо він відсутній повинно бути повідомлення “Email введено не вірно. Перевірте наявність символу @”
+5.3.2.Вимоги до поля Password:
+•	довжина паролю повинна бути від 8 до 20 знаків
+•	як мінімум одна латинська буква. Регістр немає значення.
+•	як мінімум одна буква кирилецею. Регістр немає значення.
+•	як мінімум одна цифра.
+•	як мінімум один спецсимвол : &, $, #
+Якщо введений пароль не відповідає вище зазначеним вимогам повинно бути повідомлення “Password” введено не вірно. Довжина паролю повинна бути від 8 до 20 знаків, min 1 латинська буква, min 1 буква кирилиця, min 1 цифра, min 1 спецсимвол”
+Валідні дані для перевірки:
+Email 1 : test@meest24.com
+Password 1 : QWERЙФЯ1234$
+Email 2 : test1@meest24.com
+Password 2 : QAZйцук4321&
+5.3.3. Вимоги до елементів Registration form:
+•	Розмір форми: ширина 30vw, висота 80vh
+•	Зовнішні відступи між елементами margin-top = 1rem
+•	Завкруглення кнопок 2rem
+•	Колір дизайну: blue, red згідно RGB
+6. Acceptance criteria
+6.1. Acceptance criteria:
+Основні показники якості, яким повинна відповідати Registration form і може бути прийнята після виконання наступних умов:
+●      Загальне тестування згідно цього плану виконано на 95%.
+●      В результаті тестування не були виявлені дефекти Severety та Priority нижче або дорівнює рівня Minor (згідно вимог п.5.2).
+●      Функціональні тести проведені на 100%.
+●      Залишкова кількість не закритих Bugs повинна бути не більше 3 з мінімальним пріоритетом
+6.2 Criteria are not accepted:
+●    Залишились дефекти, які мають Priority рівень Major.
+●    Функціональне тестування не пройло на 100%.
+●    Під час Smoke Testing виявлено дефекти високої пріоритетності.
+7. Suspension Criteria and Resumption Requirements
+Наявність критичних дефектів, які блокують процеси тестування
+8. Test items
+Ознайомитись з особливими вимогами згідно пунктів 5.3.2 та 5.3.3 даного Test plan.
+Скласти тестову документацію згідно Test Deliverables:
+Test plan , Test case, Bug Reports, Test Reports.
+Протестировать согласно тестовой документации новые требования.
+9. Test deliverables
+1.	Test plan
+2.	Test case
+3.	Bug Reports 
+4.	Test Reports
+10. Environmental Needs
+Список ОС для тестування:
+●                   Windows
+●                   IOS
+Список браузерів для тестування:
+●                   Safari
+●                   Google Chrome
+ 
+11. Responsibilities.
+ 
+Executor	Task	Notes
+QA Lead	Update Test Plan	
+Sinor QA tester 1	Writing Test Plan 	
+Middle QA tester 2	Writing Test cases	He can create a test plan for a Senior QA task
+QA tester 3	Execute tests	 
+11. Schedule of testing
+Task	Start date	Duration, days	End date
+Assessment of requirements & determining the number of tests	22/07/15	2	22/07/17
+write test-case	22/07/17	1	22/07/18
+excute test cases	22/07/18	2	22/07/20
+registration bugs and write bug reports	22/07/18	2	22/07/20
+retesting	22/07/20	3	22/07/23
+12.Risks and Contingencies
+Not defined in this project
+13. Approvals
+Approved by PM.
